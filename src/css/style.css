@@ -1,0 +1,276 @@
+h1 {
+  width: 100%;
+  height: 30px;
+  background: #31c17c;
+  text-indent: 20px;
+  font: lighter 16px/30px "微软雅黑";
+  color: #ffffff;
+}
+
+#aside {
+  position: absolute;
+  width: 260px;
+  left: 0px;
+  top: 30px;
+  bottom: 80px;
+  right: auto;
+  background: #edeeef;
+  font: lighter 16px/42px "微软雅黑";
+  color: #636364;
+  overflow: hidden;
+}
+
+#aside .toggle_icon {
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+#aside .menu_item {
+  width: 260px;
+  height: 42px;
+  cursor: pointer;
+}
+
+#aside span {
+  font-size: 20px;
+  float: left;
+  width: 42px;
+  text-align: center;
+}
+
+#aside .menu_group {
+  font-size: 12px;
+  text-indent: 20px;
+  height: 42px;
+}
+
+#aside div.hover {
+  background: #ccc;
+  border-left: 4px solid #31c17c;
+}
+
+#aside div.active {
+  background: #31c17c;
+  color: #ffffff;
+}
+
+#aside .own {
+  width: 100%;
+  border-top: 1px solid #cccccc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#aside .own div {
+  float: left;
+  height: 30px;
+  font: 16px/30px "";
+  margin: 10px 0px;
+}
+
+#aside .own div.photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px 6px;
+}
+
+#aside .own div.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+#aside .own div.name {
+  padding-left: 10px;
+}
+
+#aside .own div.set {
+  float: right;
+  cursor: pointer;
+}
+
+#main {
+  position: absolute;
+  top: 30px;
+  bottom: 80px;
+  right: 0px;
+  left: 260px;
+}
+
+#header h2 {
+  float: left;
+  font: 30px/42px "微软雅黑";
+  height: 42px;
+  margin-left: 20px;
+}
+
+#header form {
+  float: right;
+  margin: 6px 20px;
+  border: 1px solid #cccccc;
+}
+
+#search {
+  float: left;
+  height: 30px;
+  width: 200px;
+  font: lighter 16px/30px "微软雅黑";
+  text-indent: 5px;
+  border: none;
+}
+
+#submit {
+  display: none;
+}
+
+#header label {
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font: lighter 20px/30px "微软雅黑";
+  color: #ccc;
+}
+
+#header label:hover {
+  color: #31c17c;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  padding: 15px 0px;
+  box-shadow: 0px -1px 5px 0px #636364;
+  color: #636364;
+}
+
+#footer .control {
+  float: left;
+  width: 260px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#footer .control span {
+  display: inline-block;
+  border: 2px solid #31c17c;
+  border-radius: 50%;
+  color: #31c17c;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#prev,
+#next {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#start {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px 20px;
+}
+
+#footer .pic {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+#footer .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+#footer .music {
+  position: absolute;
+  left: 320px;
+  right: 270px;
+  height: 50px;
+}
+
+#footer .music .title {
+  position: absolute;
+  left: 0px;
+  right: 80px;
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+}
+
+#footer .music .time {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  font-size: 12px;
+}
+
+#footer .music .progress {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #cccccc;
+  bottom: 10px;
+}
+
+#footer .music .progress i {
+  position: absolute;
+  background: #31c17c;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+  /* 调整进度 */
+  border-radius: 2px;
+}
+
+#footer .music .progress span {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #31c17c;
+  border-radius: 50%;
+  left: 10%;
+  /* 调整进度 */
+  top: -5px;
+}
+
+#footer .type {
+  float: right;
+  width: 260px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#footer .type span {
+  line-height: 20px;
+  display: inline-block;
+  height: 20px;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+
+#result {
+  width: 50px;
+  height: 18px;
+  font: 12px/18px "";
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#list i {
+  font-size: 10px;
+}

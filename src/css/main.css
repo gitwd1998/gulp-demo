@@ -1,0 +1,34 @@
+/* item公共样式 */
+.item {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 42px;
+  bottom: 0px;
+  display: none;
+}
+
+.item.item_show {
+  display: block;
+}
+
+/* 音乐馆区域样式 */
+.item_hall {}
+
+/* 视频区域样式 */
+.item_video {}
+
+/* 电台区域样式 */
+.item_radio {}
+
+/* 我喜欢区域样式 */
+.item_like {}
+
+/* 本地歌曲区域样式 */
+.item_local {}
+
+/* 播放历史区域样式 */
+.item_history {}
+
+/* 创建的歌单区域样式 */
+.item_creat {}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>music</title>
+  <link rel="shortcut icon" href="img/avatar.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="iconfont_general/iconfont.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <h1>QQ音乐</h1>
+  <div id="aside">
+    <div class="toggle_icon"><span class="iconfont">&#xe610;</span></div>
+    <div class="menu_group">在线音乐</div>
+    <div class="menu_item active"><span class="iconfont">&#xe636;</span>音乐馆</div>
+    <div class="menu_item"><span class="iconfont">&#xe61e;</span>视频</div>
+    <div class="menu_item"><span class="iconfont">&#xe65a;</span>电台</div>
+    <div class="menu_group">我的音乐</div>
+    <div class="menu_item"><span class="iconfont">&#xe62f;</span>我喜欢</div>
+    <div class="menu_item"><span class="iconfont">&#xe620;</span>本地歌曲</div>
+    <div class="menu_item"><span class="iconfont">&#xe616;</span>播放历史</div>
+    <div class="menu_item"><span class="iconfont">&#xe659;</span>创建的歌单</div>
+    <div class="own">
+      <div class="photo"><img src="img/avatar.jpg" alt=""></div>
+      <div class="name">不知火舞</div>
+      <div class="set"><span class="iconfont">&#xe61c;</span></div>
+    </div>
+  </div>
+  <div id="main">
+    <div id="header">
+      <h2>音乐馆</h2>
+      <form action="###">
+        <input type="text" name="search" id="search" placeholder="搜索">
+        <label for="submit" class="iconfont">&#xe612;
+          <input type="submit" value="" id="submit">
+        </label>
+      </form>
+    </div>
+    <div id="container">
+      <div class="item item_hall item_show"></div>
+      <div class="item item_video"></div>
+      <div class="item item_radio"></div>
+      <div class="item item_like"></div>
+      <div class="item item_local"></div>
+      <div class="item item_history"></div>
+      <div class="item item_creat"></div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="control">
+      <span id="prev" class="iconfont">&#xe60e;</span>
+      <span id="start" class="iconfont">&#xe60e;</span>
+      <span id="next" class="iconfont">&#xe60e;</span>
+    </div>
+    <div class="pic"><img src="img/avatar.jpg" alt=""></div>
+    <div class="music">
+      <span class="title">我的秘密-邓紫棋</span>
+      <span class="time">00:00/00:00</span>
+      <div class="progress">
+        <i></i>
+        <span></span>
+      </div>
+    </div>
+    <div class="type">
+      <span id="result">音效</span>
+      <span class="iconfont">&#xe62f;</span>
+      <span class="iconfont">&#xe638;</span>
+      <span class="iconfont">&#xe654;</span>
+      <span>词</span>
+      <span id="list"><span class="iconfont">&#xe641;</span><i>666+</i></span>
+    </div>
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
